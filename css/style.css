@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+nav .shown {
+  padding: 24px 8px;
+}
+
+nav .logo img {
+  width: 50px;
+  height: 57.76px;
+}
+
+nav .nav-icon {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+nav .share-icons {
+  cursor: pointer;
+}
+
+nav .hidden {
+  padding: 24px;
+}
+
+nav .hidden ul li {
+  padding-block: 8px;
+  cursor: pointer;
+}
+
+nav .hidden .nav-footer i {
+  cursor: pointer;
+}
+
+.search .row .inner {
+  margin-top: 24px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: tomato;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.search .row .inner img {
+  width: 100%;
+}
+
+.categories .row .inner {
+  cursor: pointer;
+}
+
+.categories .row .inner .slider,
+.search .row .inner .slider {
+  background-color: #f9f6f6ca;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 8px;
+  transition: all 0.4s;
+}
+
+.categories .row .inner:hover .slider,
+.search .row .inner:hover .slider {
+  top: 0;
+}
+
+.description .row {
+  padding-block: 24px;
+}
+
+.description .row .inner {
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.description .row .inner img {
+  border-radius: 6px;
+}
+
+.description .row .inner ul li {
+  /* background-color: #cff4fc; */
+  border-radius: 6px;
+  padding: 4px;
+  margin: 8px;
+  /* color: #055160; */
+}
+
+.mySearch input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.area .row .inner {
+  cursor: pointer;
+}
+
+.ingredients .row .inner {
+  cursor: pointer;
+}

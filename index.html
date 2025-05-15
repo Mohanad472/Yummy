@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar z-3 vh-100 top-0 position-fixed d-flex flex-row">
+        <div
+          class="hidden text-white h-100 bg-black d-flex flex-column justify-content-between align-items-center"
+        >
+          <ul class="links overflow-hidden w-100 p-0 m-0 list-unstyled">
+            <li id="search">Search</li>
+            <li id="cat">Categories</li>
+            <li id="area">Area</li>
+            <li id="ing">Ingredients</li>
+            <li id="contact">Contact Us</li>
+          </ul>
+
+          <div class="nav-footer">
+            <div class="social-links">
+              <i class="fa-brands fa-facebook me-1"></i
+              ><i class="fa-brands fa-twitter me-1"></i
+              ><i class="fa-solid fa-globe"></i>
+            </div>
+            <p class="m-0">Copyright Â© 2019 All Rights</p>
+            <p>Reserved.</p>
+          </div>
+        </div>
+        <div
+          class="shown h-100 d-flex flex-column justify-content-between align-items-center bg-body-tertiary"
+        >
+          <div class="logo">
+            <img src="./images/logo.png" alt="" srcset="" />
+          </div>
+          <div class="nav-icon"><i class="fa-solid fa-bars"></i></div>
+          <div class="share-icons d-flex flex-column gap-2">
+            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="d-none mySearch">
+        <div class="container w-75">
+          <div class="row py-4">
+            <div class="col-md-6">
+              <div class="inner">
+                <input
+                  type="text"
+                  class="form-control text-white bg-transparent"
+                  placeholder="Search By Name"
+                  id="name"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="inner">
+                <input
+                  type="text"
+                  class="form-control text-white bg-transparent"
+                  placeholder="Search By First Letter"
+                  id="letter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="d-none search">
+        <div class="container">
+          <div class="row pb-5 pt-4 text-white"></div>
+        </div>
+      </section>
+
+      <section class="d-none categories">
+        <div class="container">
+          <div class="row pb-5 pt-4"></div>
+        </div>
+      </section>
+
+      <section class="d-none area">
+        <div class="container">
+          <div class="row pb-5 pt-5 g-4 text-white"></div>
+        </div>
+      </section>
+
+      <section class="d-none ingredients">
+        <div class="container">
+          <div class="row pb-5 pt-5 g-4 text-white">
+            <div class="col-md-3">
+              <div class="inner text-center p-2">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  eius sint perferendis doloremque nisi provident accusantium,
+                  inventore veniam fuga recusandae, officiis cumque excepturi
+                  iusto ipsam eum quod illo fugiat voluptates?
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner text-center p-2">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  eius sint perferendis doloremque nisi provident accusantium,
+                  inventore veniam fuga recusandae, officiis cumque excepturi
+                  iusto ipsam eum quod illo fugiat voluptates?
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner text-center p-2">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  eius sint perferendis doloremque nisi provident accusantium,
+                  inventore veniam fuga recusandae, officiis cumque excepturi
+                  iusto ipsam eum quod illo fugiat voluptates?
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner text-center p-2">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  eius sint perferendis doloremque nisi provident accusantium,
+                  inventore veniam fuga recusandae, officiis cumque excepturi
+                  iusto ipsam eum quod illo fugiat voluptates?
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner text-center p-2">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  eius sint perferendis doloremque nisi provident accusantium,
+                  inventore veniam fuga recusandae, officiis cumque excepturi
+                  iusto ipsam eum quod illo fugiat voluptates?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-none description">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="inner photo">
+                <img src="./images/meal-6.jpg" class="w-100" alt="" srcset="" />
+              </div>
+              <h2 class="text-white">Hello</h2>
+            </div>
+            <div class="col-md-8">
+              <div class="inner text-white">
+                <h2>Instructions</h2>
+                <p>
+                  Crumble the bread into small pieces. Sprinkle with cold water,
+                  cover with a damp cloth and leave for 30 minutes. Heat 2 tsp
+                  of olive oil in a deep pan. Add the garlic cloves separated,
+                  skins on; just make a small cut with a knife to open them and
+                  keep frying for 5 minutes. Set the garlic aside. In the same
+                  oil, where we fried everything, simmer the bread, stirring
+                  constantly for 15 minutes and add a grinding of black pepper.
+                  Add the garlic, continue stirring for about 20 minutes. It
+                  will be ready when the bread is soft and golden.
+                </p>
+                <h3><span class="fw-bolder">Area : </span>Spanish</h3>
+                <h3><span class="fw-bolder">Category : </span>Miscellaneous</h3>
+                <h3>Recipes :</h3>
+                <ul
+                  class="text-black list-unstyled d-flex flex-row flex-wrap mb-3"
+                >
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                  <li class="alert alert-info">1 large Bread</li>
+                </ul>
+                <h3 class="mb-4">Tags :</h3>
+                <ul
+                  class="text-black list-unstyled d-flex flex-row flex-wrap mb-3"
+                >
+                  <li class="alert alert-danger">1 large Bread</li>
+                  <li class="alert alert-danger">1 large Bread</li>
+                  <li class="alert alert-danger">1 large Bread</li>
+                  <li class="alert alert-danger">1 large Bread</li>
+                  <li class="alert alert-danger">1 large Bread</li>
+                </ul>
+                <a href="#" class="btn btn-success">Source</a>
+                <a href="#" class="btn btn-danger">Youtube</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="d-none contact d-flex justify-content-center align-items-center vh-100"
+      >
+        <div class="container w-75">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Enter Your Phone"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Enter Your Age"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter Your Password"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter Your Repassword"
+              />
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-outline-danger px-2 mt-3">Submit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
